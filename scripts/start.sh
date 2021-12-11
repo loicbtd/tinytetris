@@ -5,4 +5,4 @@ conan install .. --profile=default
 cmake .. -G "Kate - Unix Makefiles"
 cmake --build . --config Release
 cd ..
-./build/bin/app
+# ./build/bin/app

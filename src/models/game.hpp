@@ -26,6 +26,13 @@ public:
     void start();
 
 private:
-    void newPiece();
     int num(int, int);
+    void newPiece();
+    void frame();
+    void setPiece(int, int, int, int);
+    int updatePiece();
+    void removeLine();
+    int checkHit(int, int, int);
+    int doTick();
+    void runLoop();
 };
